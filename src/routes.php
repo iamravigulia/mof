@@ -1,11 +1,11 @@
 <?php
 use Illuminate\Support\Facades\Route;
 
-Route::get('greeting', function () {
-    return 'Hi, this is your awesome package! mof';
-});
+// Route::get('greeting', function () {
+//     return 'Hi, this is your awesome package! mof';
+// });
 
-Route::get('mof/test', 'EdgeWizz\Mof\Controllers\MofController@test')->name('test');
+// Route::get('mof/test', 'EdgeWizz\Mof\Controllers\MofController@test')->name('test');
 
 Route::post('fmt/mof/store', 'EdgeWizz\Mof\Controllers\MofController@store')->name('fmt.mof.store');
 
